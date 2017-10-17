@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    table {
+      border: 1px solid ;
+      table-layout: fixed;
+      width: 100%;
+    }
+
+    table td {
+        word-wrap: break-word;         /* All browsers since IE 5.5+ */
+        overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+    }
+
+    td {
+      border: 1px solid  #888;
+    }
+
+    /* 
+      from 
+      https://stackoverflow.com/questions/6843412/force-line-break-in-html-table-cell
+     */
+
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>tes</td>
+      <td>testtest---</td>
+      <td>test</td>
+      <td>tes</td>
+      <td>t</td>
+      <td>tes</td>
+      <td>est---est---est---est---</td>
+      <td>test</td>
+      <td>te</td>
+    </tr>
+  </table>
+</body>
+</html>
